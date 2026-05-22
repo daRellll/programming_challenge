@@ -1,8 +1,5 @@
-count = 0
-
-while count < 100:
-    if count % 2 == 0:
-     count += 1
+for i in range(101):
+    if i % 2 == 0:
+        continue
     else:
-     print(count)
-     count += 1
+        print(i)
